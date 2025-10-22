@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@theme{
+    --font-montserrat: Montserrat, sans-serif;
+    --color-gray: #B8BDC9;
+    --color-orange: #F55F39;
+    --color-salad: #2BCA8B;
+    --color-graytext: #4D4D4D;
+    --color-purple: #252061;
+}
+.bg-header-img {
+    background-image: url('/src/Header/imgs/headerimg.png');
+}   
+.bg-header-block {
+    background-image: url('/src/Header/imgs/headerblockbg.png');
+}   
