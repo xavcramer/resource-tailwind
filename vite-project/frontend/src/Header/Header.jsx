@@ -10,7 +10,7 @@ export default function Header() {
             <header className='w-full h-fit'>
                 <div className='w-full h-[900px] bg-header-img bg-cover bg-center relative z-1'>
                     <div class='w-[60%] h-[700px] ml-[20%] mr-[20%]'>
-                        <div class='w-full h-[790px] md:flex items-center'>
+                        <div class='w-full h-[790px] ml-17 md:flex items-center'>
                             <div class='w-full h-fit md:flex-wrap'>
                                 <h1 class='w-[576px] h-fit text-[49px] leading-[65px] text-graytext'>The <span class='text-salad underline'>most complete </span>Photography resource.</h1>
                                 <p class='w-[500px] h-fit text-[19px] mt-[4px] text-graytext'>Welcome at Template Resource. This template is packed with useful features to built out your own resource website.</p>
@@ -24,7 +24,7 @@ export default function Header() {
                     </div>
                 </div>
                 <div class='w-[74%] h-fit ml-[13%] mr-[13%]'>
-                    <div class='md:flex items-center justify-between'>
+                    <div class='md:flex ml-17 items-center justify-between'>
                         <div class='w-[full] h-[fit] md:flex gap-x-[4vh] items-center mt-[51px]'>
                             <h1 class='w-[125px] h-[fit] leading-[44px] text-salad text-[28px]'>How can we help you?</h1>
                             <ul class='w-[260px] h-[fit] leading-[28px] text-[15px] text-purple'>

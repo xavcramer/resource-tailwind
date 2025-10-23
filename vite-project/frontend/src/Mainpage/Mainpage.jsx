@@ -11,8 +11,8 @@ export default function Mainpage() {
         <>
             <main class='w-full h-[1200px]'>
                 <div class='w-[60%] h-[700px] ml-[20%] mr-[20%]'>
-                    <h1 class='w-[500px] text-[52px] text-graytext'>Recently in our Photography <span class='text-orange underline'>Blog</span>.</h1>
-                    <div class='w-[1000px] h-[769px] md:flex gap-x-[5vh] mt-[3vh]'>
+                    <h1 class='w-[500px] text-[52px] ml-17 text-graytext'>Recently in our Photography <span class='text-orange underline'>Blog</span>.</h1>
+                    <div class='w-[1000px] h-[769px] m-auto md:flex gap-x-[4vh] mt-[3vh]'>
                         <div class='w-[534px] h-[769px]'>
                             <img src={mainfirstimg} alt="" />
                             <div class='w-[400px] h-[300px] bg-white relative bottom-31 pt-[10px]'>

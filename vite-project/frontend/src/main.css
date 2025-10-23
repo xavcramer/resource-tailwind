@@ -8,6 +8,7 @@
     --color-salad: #2BCA8B;
     --color-graytext: #4D4D4D;
     --color-purple: #252061;
+    --color-purple2: #352F77;
 }
 .bg-header-img {
     background-image: url('/src/Header/imgs/headerimg.png');
