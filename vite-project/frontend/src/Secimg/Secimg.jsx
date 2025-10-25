@@ -6,10 +6,10 @@ import secimgarrow from "./imgs/secimgarrow.png"
 export default function Secimg() {
     return (
         <>
-            <section class='w-full h-[700px]'>
+            <section class='w-full h-[460px]'>
                 <div class='w-[60%] h-[fit] ml-[20%] mr-[20%]'>
                     <div class='w-full h-fit relative z-9'>
-                        <img src={secbgimg} alt="" />
+                        <img src={secbgimg} alt="" class='w-[1100px] h-[660px]'/>
                       <div class='w-[500px] max-h-[469px] bg-purple2 p-10 space-y-[20px] text-white absolute z-10 top-[191px]'>
                             <h4 class='w-[370px] text-[44px]'>
                                 Inspired to get your photography to the next level?

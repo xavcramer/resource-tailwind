@@ -30,10 +30,10 @@ export default function Mainpage() {
                             </div>
                         </div>
 
-                        <div class='w-fit h-[1000px] md:flex-col space-y-[20px]'>
+                        <div class='w-fit max-h-fit md:flex-col space-y-[20px]'>
                             <img src={mainsecondimg} alt="" />
                             <img src={mainthirdimg} alt="" />
-                            <div class='w-[75%] h-fit text-[18px] bg-white relative pt-[3vh] bottom-[10vh]'>
+                            <div class='w-[15%] h-fit text-[18px] bg-white absolute pt-[3vh] top-[206%]'>
                                 <p class='text-[12px] text-graytext'>Sep 13, 2019</p>
                                 <p class='w-[222px] text-purple'>7 Things About Photography Your Boss Wants To Know</p>
                             </div>

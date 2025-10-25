@@ -1,0 +1,22 @@
+create table card (
+	id SERIAL primary key,
+	period varchar(255) not null,
+	price varchar(255) not null,
+	month varchar(255) not null,
+	point_first varchar(255) not null,
+	point_second varchar(255) not null,
+	point_third varchar(255) not null,
+	description varchar(255) not null
+);
+insert into card (period, price, month, point_first, point_second, point_third, description) values 
+('1 Month access', '$49', '/month', 'Full Access to Resources', 'Access to Blog', 'Access to News', 'On checkout you will be charged the total amount of $534 for the 6 month package.'),
+('1 Year Access', '$67', '/month', 'Full Access to Resources', 'Access to Blog', 'Access to News', 'On checkout you will be charged the total amount of $534 for the 6 month package.'),
+('Lifetime Access', '$89', '/month', 'Full Access to Resources', 'Access to Blog', 'Access to News', 'On checkout you will be charged the total amount of $534 for the 6 month package.');
+
+CREATE table purchases (
+    id SERIAL PRIMARY KEY,
+    card_id INTEGER NOT NULL,
+    period VARCHAR(255) NOT NULL,
+    price VARCHAR(255) NOT NULL,
+    purchase_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
